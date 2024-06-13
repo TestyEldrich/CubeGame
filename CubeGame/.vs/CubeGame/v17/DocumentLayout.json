@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\projectgames\\CubeGame\\CubeGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F66C65AA-4318-1D47-E44E-61B0A9FE95D0}|VirtualButtonsScripts.csproj|c:\\projectgames\\cubegame\\cubegame\\assets\\virtualbuttonsforunity\\virtualbuttonsforunity\\scripts\\virtualbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F66C65AA-4318-1D47-E44E-61B0A9FE95D0}|VirtualButtonsScripts.csproj|solutionrelative:assets\\virtualbuttonsforunity\\virtualbuttonsforunity\\scripts\\virtualbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|c:\\projectgames\\cubegame\\cubegame\\assets\\scripts\\cubespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|c:\\projectgames\\cubegame\\cubegame\\assets\\scripts\\uilookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uilookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projectgames\\CubeGame\\CubeGame\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projectgames\\CubeGame\\CubeGame\\Assets\\VirtualButtonsForUnity\\VirtualButtonsForUnity\\Scripts\\VirtualButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VirtualButtonsForUnity\\VirtualButtonsForUnity\\Scripts\\VirtualButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UILookAt.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\UILookAt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UILookAt.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\UILookAt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UILookAt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:37:35.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OnScreenButton.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Plugins\\OnScreen\\OnScreenButton.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T06:48:30.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CubeSpawn.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSpawn.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeSpawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CubeSpawn.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T06:19:29.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "VirtualButton.cs",
               "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\VirtualButtonsForUnity\\VirtualButtonsForUnity\\Scripts\\VirtualButton.cs",
               "RelativeDocumentMoniker": "Assets\\VirtualButtonsForUnity\\VirtualButtonsForUnity\\Scripts\\VirtualButton.cs",
               "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\VirtualButtonsForUnity\\VirtualButtonsForUnity\\Scripts\\VirtualButton.cs",
               "RelativeToolTip": "Assets\\VirtualButtonsForUnity\\VirtualButtonsForUnity\\Scripts\\VirtualButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T05:57:57.865Z",
+              "WhenOpened": "2024-06-13T06:22:28.812Z",
               "EditorCaption": ""
             },
             {
