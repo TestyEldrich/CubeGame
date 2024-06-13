@@ -1,6 +1,6 @@
 # CubeGame
 Test game for Unity dev vacancy
-#Requirements
+# Requirements
 * Zone surrounded by 4 walls and cylinder nearby
 * First button spawns cubes in that zone with different colors and numbers on them(cubes have physics)
 * Second button makes cubes to move in random directions
