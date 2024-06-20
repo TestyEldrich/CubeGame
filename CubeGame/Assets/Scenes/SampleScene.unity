@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &109331655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8375227703963975013, guid: 275b280c081e3406c94cdb832d875a59,
+    type: 3}
+  m_PrefabInstance: {fileID: 2048101443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &227616972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -672,9 +678,10 @@ MonoBehaviour:
   rotationLimit: 40
   rotationSpeed: 15
   spawn: {fileID: 1765146010}
-  cubePrefab: {fileID: 4830517298305478183, guid: 442f93e9f3f1f704d9a0fc98f815e0a6,
+  parentCubePrefab: {fileID: 1370882348323896040, guid: f671428ce2f91344facb4bb45c86c83e,
     type: 3}
-  cubeList: {fileID: 0}
+  cubeList: {fileID: 356680606}
+  isSpawning: 0
 --- !u!1 &875350664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,6 +1378,21 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2048101443}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2015054140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109331655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b86ab8cf209c4409fd46b4d4ae30d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMoveEventStart: {fileID: 11400000, guid: 0125699962582bc47b728c44954edadb, type: 2}
+  rotationLimit: 40
+  rotationSpeed: 15
 --- !u!1001 &2048101443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1535,11 +1557,51 @@ PrefabInstance:
       propertyPath: m_text
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6823382370191244040, guid: 442f93e9f3f1f704d9a0fc98f815e0a6,
+        type: 3}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateDirection
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411172041535794069, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9172598602197683105, guid: 275b280c081e3406c94cdb832d875a59, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8375227703963975013, guid: 275b280c081e3406c94cdb832d875a59,
+        type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 2015054140}
   m_SourcePrefab: {fileID: 100100000, guid: 275b280c081e3406c94cdb832d875a59, type: 3}
 --- !u!1001 &2248482903922383637
 PrefabInstance:

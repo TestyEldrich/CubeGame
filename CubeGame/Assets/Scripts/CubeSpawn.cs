@@ -13,9 +13,11 @@ public class CubeSpawn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
     [SerializeField]
     private GameObject spawn;
     [SerializeField]
-    private GameObject cubePrefab;
+    private GameObject parentCubePrefab;
     [SerializeField]
     private GameObject cubeList;
+    [SerializeField]
+    private bool isSpawning = false;
 
 
     private bool rotate = false;
@@ -38,10 +40,13 @@ public class CubeSpawn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
         spawn = GameObject.FindGameObjectWithTag("Respawn");
         cubeList = GameObject.FindGameObjectWithTag("CubeList");
         rotate = false;
-        StartCoroutine(Spawn());
+        if (!isSpawning) {
+            StartCoroutine(Spawn());
+        }
     }
 
     IEnumerator Spawn() {
+        isSpawning = true;
         foreach (Transform child in cubeList.transform) {
             Destroy(child.gameObject);
         }
@@ -49,14 +54,16 @@ public class CubeSpawn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
         int spawnAmount = Random.Range(1, 7);
         int counter = 1;
         while(counter != spawnAmount+1) {
-            GameObject cube = Instantiate(cubePrefab, spawnPoint, Random.rotation);
+            GameObject cube = Instantiate(parentCubePrefab, new Vector3(spawnPoint.x + Random.Range(-3f,3f), spawnPoint.y, spawnPoint.z + Random.Range(-3f, 3f)), Quaternion.Euler(0,0,0));
             cube.transform.parent = cubeList.transform;
-            cube.GetComponent<Renderer>().material.color = Random.ColorHSV(0f, 1f);
-            GameObject textObject = cube.transform.GetChild(0).GetChild(0).gameObject;
+            cube.transform.GetChild(0).GetComponent<Renderer>().material.color = Random.ColorHSV(0f, 1f);
+            GameObject textObject = cube.transform.GetChild(0).GetChild(0).GetChild(0).gameObject;
+            cube.transform.GetChild(0).rotation = Random.rotation;
             textObject.GetComponent<TextMeshProUGUI>().text = "" + counter;
             counter++;
             yield return new WaitForSeconds(0.5f);
         }
         Debug.Log("Spawn");
+        isSpawning = false;
     }
 }
