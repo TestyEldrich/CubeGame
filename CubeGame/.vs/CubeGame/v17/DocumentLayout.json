@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\projectgames\\CubeGame\\CubeGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\cubespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\shootevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shootevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|c:\\projectgames\\cubegame\\cubegame\\assets\\scripts\\moveevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\moveevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +15,28 @@
       "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|c:\\projectgames\\cubegame\\cubegame\\assets\\scripts\\moveeventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveeventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|c:\\projectgames\\cubegame\\cubegame\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\eventstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eventstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\cubespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\gameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|C:\\projectgames\\CubeGame\\CubeGame\\assets\\scripts\\moveeventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2083B20-033A-5C4D-12A0-42C4F17E9EAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveeventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,15 +50,103 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameEventListener.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEventListener.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEventListener.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEventListener.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameEventListener.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:02:01.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameEvent.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEvent.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:01:37.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CubeManager.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeManager.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CubeManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:49:08.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:48:50.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShootEvent.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\ShootEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShootEvent.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\ShootEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShootEvent.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:52:10.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MoveEventManager.cs",
               "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\MoveEventManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveEventManager.cs",
               "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\MoveEventManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MoveEventManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T21:07:37.26Z",
+              "WhenOpened": "2024-06-20T21:46:25.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CubeSpawn.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSpawn.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeSpawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CubeSpawn.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:18:59.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventStats.cs",
+              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\EventStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EventStats.cs",
+              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\EventStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EventStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:18:47.785Z",
               "EditorCaption": ""
             },
             {
@@ -57,64 +157,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveEvent.cs",
               "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\MoveEvent.cs",
               "RelativeToolTip": "Assets\\Scripts\\MoveEvent.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T14:55:57.51Z",
+              "WhenOpened": "2024-06-20T21:46:02.809Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CubeManager.cs",
-              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeManager.cs",
-              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CubeManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T15:50:38.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CubeSpawn.cs",
-              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeSpawn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CubeSpawn.cs",
-              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\CubeSpawn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CubeSpawn.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwDwAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:54:25.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameEventListener.cs",
-              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEventListener.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEventListener.cs",
-              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEventListener.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameEventListener.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T15:41:13.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameEvent.cs",
-              "DocumentMoniker": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameEvent.cs",
-              "ToolTip": "C:\\projectgames\\CubeGame\\CubeGame\\Assets\\Scripts\\GameEvent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T15:38:10.432Z"
             }
           ]
         }

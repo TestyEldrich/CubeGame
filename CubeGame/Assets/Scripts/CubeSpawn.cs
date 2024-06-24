@@ -16,8 +16,7 @@ public class CubeSpawn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
     private GameObject parentCubePrefab;
     [SerializeField]
     private GameObject cubeList;
-    [SerializeField]
-    private bool isSpawning = false;
+    [SerializeField] public Dictionary<int, GameObject> cubes = new Dictionary<int, GameObject>();
 
 
     private bool rotate = false;
@@ -40,30 +39,33 @@ public class CubeSpawn : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
         spawn = GameObject.FindGameObjectWithTag("Respawn");
         cubeList = GameObject.FindGameObjectWithTag("CubeList");
         rotate = false;
-        if (!isSpawning) {
+        if (!transform.GetComponentInParent<EventStats>().isSpawning) {
             StartCoroutine(Spawn());
         }
     }
 
     IEnumerator Spawn() {
-        isSpawning = true;
+        cubes.Clear();
+        transform.GetComponentInParent<EventStats>().isSpawning = true;
         foreach (Transform child in cubeList.transform) {
             Destroy(child.gameObject);
         }
         Vector3 spawnPoint = spawn.transform.position;
         int spawnAmount = Random.Range(1, 7);
+        transform.GetComponentInParent<EventStats>().cubeCount = spawnAmount;
         int counter = 1;
         while(counter != spawnAmount+1) {
             GameObject cube = Instantiate(parentCubePrefab, new Vector3(spawnPoint.x + Random.Range(-3f,3f), spawnPoint.y, spawnPoint.z + Random.Range(-3f, 3f)), Quaternion.Euler(0,0,0));
             cube.transform.parent = cubeList.transform;
             cube.transform.GetChild(0).GetComponent<Renderer>().material.color = Random.ColorHSV(0f, 1f);
-            GameObject textObject = cube.transform.GetChild(0).GetChild(0).GetChild(0).gameObject;
+            cube.transform.GetChild(0).GetChild(0).GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = "" + counter;
             cube.transform.GetChild(0).rotation = Random.rotation;
-            textObject.GetComponent<TextMeshProUGUI>().text = "" + counter;
+            cubes.Add(counter, cube);
             counter++;
             yield return new WaitForSeconds(0.5f);
         }
         Debug.Log("Spawn");
-        isSpawning = false;
+        transform.GetComponentInParent<EventStats>().isSpawned = true;
+        transform.GetComponentInParent<EventStats>().isSpawning = false;
     }
 }

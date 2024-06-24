@@ -9,12 +9,10 @@ public class CubeManager : MonoBehaviour
     void OnCollisionEnter(Collision col) {
 
         if (col.gameObject.tag == collisionTags[0]) {
-            Debug.Log("Collision");
             transform.parent.GetComponent<MoveEvent>().InverseDirection();
             // use the above code as a template for all the collisionTags
             // add here.. and on.. and on..
         }else if (col.gameObject.tag == collisionTags[1]) {
-            Debug.Log("Collision");
             transform.parent.GetComponent<MoveEvent>().UpdateDirection();
         }
     }

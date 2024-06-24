@@ -30,6 +30,8 @@ public class MoveEventManager : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     public void OnPointerUp(PointerEventData pointerEventData) {
         rotate = false;
-        onMoveEventStart.Raise();
+        if (!transform.GetComponentInParent<EventStats>().isSpawning) {
+            onMoveEventStart.Raise(this, null);
+        }
     }
 }

@@ -13,7 +13,7 @@ public class MoveEvent : MonoBehaviour
     [SerializeField] public bool onMoveEvent = false;
 
     private void Update() {
-        if (isMoving) {
+        if (isMoving && onMoveEvent) {
             transform.position += randomDirection * speed * Time.deltaTime;
         }
     }
@@ -46,5 +46,6 @@ public class MoveEvent : MonoBehaviour
 
     public void StopMovement() {
         isMoving = false;
+        onMoveEvent = false;
     }
 }

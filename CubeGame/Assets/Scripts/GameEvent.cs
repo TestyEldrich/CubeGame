@@ -7,9 +7,9 @@ public class GameEvent : ScriptableObject
 {
     [SerializeField]
     public List<GameEventListener> listeners = new List<GameEventListener>();
-    public void Raise() {
+    public void Raise(Component sender, object data) {
         foreach(GameEventListener listener in listeners) {
-            listener.OnEventRaised();
+            listener.OnEventRaised(sender, data);
         }
     }
 
